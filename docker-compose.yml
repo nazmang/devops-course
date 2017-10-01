@@ -9,7 +9,7 @@ services:
         DOCKER_SOCKET: /var/run/docker.sock
         DOCKER_GROUP: docker
         JENKINS_USER: jenkins
-        JENKINS_URL: "https://jenkins.example.com/"
+#        JENKINS_URL: "https://jenkins.example.com/"
         DOCKER_HOST: unix:///var/run/docker.sock
      volumes:
         - ./jenkinshome:/var/jenkins_home
